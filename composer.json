@@ -1,0 +1,19 @@
+{
+    "name": "renventura/wp-cli-command-update-all",
+    "description": "Because who wants to three commands when you can type one? Updates all plugins, themes, and core in one command.",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/renventura/wp-cli-command-update-all",
+    "license": "MIT",
+    "authors": [],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [ "command.php" ]
+    },
+    "require": {
+        "wp-cli/wp-cli": "^1.1.0"
+    },
+    "require-dev": {
+        "behat/behat": "~2.5"
+    }
+}
