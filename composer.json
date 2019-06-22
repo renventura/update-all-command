@@ -1,8 +1,8 @@
 {
-    "name": "renventura/wp-cli-command-update-all",
+    "name": "renventura/update-all-command",
     "description": "Because who wants to three commands when you can type one? Updates all plugins, themes, and core in one command.",
     "type": "wp-cli-package",
-    "homepage": "https://github.com/renventura/wp-cli-command-update-all",
+    "homepage": "https://github.com/renventura/update-all-command",
     "license": "MIT",
     "authors": [
         {
