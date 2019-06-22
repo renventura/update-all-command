@@ -9,8 +9,6 @@ if ( file_exists( $autoload ) ) {
 	require_once $autoload;
 }
 
-require_once 'src/UpdateAll_Command.php';
-
 WP_CLI::add_command(
 	'update-all',
 	'UpdateAll_Command',

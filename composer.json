@@ -4,13 +4,19 @@
     "type": "wp-cli-package",
     "homepage": "https://github.com/renventura/wp-cli-command-update-all",
     "license": "MIT",
-    "authors": [],
+    "authors": [
+        {
+            "name": "Ren Ventua",
+            "email": "rv@renventura.com",
+            "homepage": "https://renventura.com"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "files": [ "command.php" ]
     },
-    "require": {
-        "wp-cli/wp-cli": "^2.2.0"
+    "require-dev": {
+        "wp-cli/wp-cli": "*"
     }
 }
